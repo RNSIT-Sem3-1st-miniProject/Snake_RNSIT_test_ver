@@ -19,9 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="headder\Boundry.h" />
+    <ClInclude Include="headder\Food.h" />
+    <ClInclude Include="headder\Box.h" />
     <ClInclude Include="headder\load.h" />
+    <ClInclude Include="headder\Position.h" />
+    <ClInclude Include="headder\Snake.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Boundry.cpp" />
+    <ClCompile Include="src\Food.cpp" />
+    <ClCompile Include="src\Snake.cpp" />
+    <ClCompile Include="src\Position.cpp" />
+    <ClCompile Include="src\Box.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
