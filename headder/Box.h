@@ -1,11 +1,10 @@
 #pragma once
 
 #include "load.h"
-#include "Position.h"
 #include "Snake.h"
+#include "Vector.h"
 
-class Box
-{
+class Box {
 private:
 	int size_x, size_y;
 	Snake snake;

@@ -1,19 +1,12 @@
-#pragma once
 
-#include <iostream>
-#include <conio.h>
-#include <time.h>
-#include <cstdbool>
-#include <random>
-#include <math.h>
-
+#include "../headder/load.h"
 
 // expermenting ;>
 // written by vasu
 
 #define boardWidht 75
 #define boardHeight 75
-/*
+
 namespace func {
 	unsigned int getRandonSeed() {
 		time_t timeSeed = time(NULL);
@@ -56,4 +49,5 @@ namespace func {
 
 //#define Random func::random
 #define Vector func::Vector2d
-*/
+
+

@@ -1,17 +1,16 @@
 #pragma once
 
 #include "load.h"
-#include "Position.h"
+#include "Vector.h"
 
-class Snake
-{
+class Snake {
 private:
 	struct Body {
-		Position pos;
+		Vector2d pos = Vector2d();
 		Body* nxt;
 	};
 	struct Head {
-		Position pos;
+		Vector2d pos = Vector2d();
 		char facing; // E => East, W => West, N => North, S => South;
 		Body* nxt;
 	}head;
@@ -19,4 +18,3 @@ private:
 public:
 	Snake();
 };
-

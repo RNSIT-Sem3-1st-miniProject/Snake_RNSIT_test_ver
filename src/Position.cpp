@@ -5,3 +5,7 @@ Position::Position(int x, int y) {
 	this->y = y;
 }
 
+Position::Position() {
+	this->x = 0;
+	this->y = 0;
+}

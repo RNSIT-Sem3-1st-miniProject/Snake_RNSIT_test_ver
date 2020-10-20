@@ -1,14 +1,16 @@
 #pragma once
 
 #include "load.h"
-#include "Position.h"
+#include "Vector.h"
+//#include "Snake.h"
+#include "Random.h"
 
-class Food
-{
+class Food {
 private:
-	Position pos;
+	Vector2d pos = Vector2d();
 	char type;
 	int points;
+	int timmer;
 public:
-	Food();
+	Food(int max_x,int max_y);
 };

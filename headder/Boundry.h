@@ -1,11 +1,10 @@
 #pragma once
 
 #include "load.h"
-#include "Position.h"
+#include "Vector.h"
 
-class Boundry
-{
+class Boundry {
 private:
-	Position pos;
+	Vector2d pos = Vector2d();
 	char type;
 };
