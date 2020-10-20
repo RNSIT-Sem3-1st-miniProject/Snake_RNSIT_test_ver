@@ -16,6 +16,7 @@ private:
 		Body* nxt;
 	}head;
 	int size;
+	Body* tail;
 public:
 	Snake();
 };
